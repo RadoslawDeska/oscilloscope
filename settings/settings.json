@@ -1,0 +1,49 @@
+{
+    "Horizontal": {
+        "timebase": "5E-9",
+        "letter": "u",
+        "delay": "0E-8",
+        "zoom": false,
+        "format": "YT"
+    },
+    "Vertical": {
+        "Channel1": {
+            "Enabled": true,
+            "Vdiv": "0.5",
+            "Offset": "0",
+            "Coupling": "DC",
+            "BW_limit": "Full",
+            "Adjust": "Coarse",
+            "Probe": 1,
+            "Impedance": 1000000.0,
+            "Unit": "V",
+            "Invert": false
+        },
+        "Channel2": {
+            "Enabled": true,
+            "Vdiv": "0.5",
+            "Offset": "0",
+            "Coupling": "DC",
+            "BW_limit": "Full",
+            "Adjust": "Coarse",
+            "Probe": 1,
+            "Impedance": 1000000.0,
+            "Unit": "V",
+            "Invert": false
+        }
+    },
+    "Acquire": {
+        "acquisition": "Normal",
+        "sinxx": "Sinx",
+        "mem_depth": 14000000.0
+    },
+    "Trigger": {
+        "Type": "Edge",
+        "Source": "CH1",
+        "Slope": "Rising",
+        "Holdoff": 0,
+        "Coupling": "DC",
+        "Noise reject": false,
+        "Mode": "AUTO"
+    }
+}
